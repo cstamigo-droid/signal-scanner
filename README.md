@@ -1,5 +1,8 @@
 # signal-scanner — rule-based stock/crypto screener with alerts
 
+![signal-scanner - live scan demo](docs/demo.png)
+
+
 Define a **watchlist** and a **ruleset** (plain YAML); the scanner pulls market data,
 computes indicators, and tells you which symbols match — on the console, in **Telegram**,
 or from any **MCP host** (Claude Desktop / Claude Code).
