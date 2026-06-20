@@ -57,7 +57,7 @@ TELEGRAM_CHAT_ID=...
   }
 }
 ```
-Then ask Claude: *"Run my scanner"* or *"Any signals on NVDA and BTC-USD?"*
+Use the full path to your Python (e.g. the one where you ran `pip install -r requirements.txt`) if `python` isn't on PATH. Then ask Claude: *"Run my scanner"* or *"Any signals on NVDA and BTC-USD?"* — it calls the `scan` tool.
 
 ## Configuration
 All knobs in `config.py` / `.env` (see `.env.example`): RSI period, SMA fast/slow,
