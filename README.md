@@ -1,5 +1,7 @@
 # signal-scanner — rule-based stock/crypto screener with alerts
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org) [![MCP](https://img.shields.io/badge/Model_Context_Protocol-server-7C3AED.svg)](https://modelcontextprotocol.io)
+
 ![signal-scanner - live scan demo](docs/demo.png)
 
 
