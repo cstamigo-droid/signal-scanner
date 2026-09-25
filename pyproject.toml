@@ -4,7 +4,22 @@ version = "0.1.0"
 description = "Rule-based stock/crypto screener with alerts — console, Telegram, MCP."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+authors = [{ name = "Cristian Amigo", email = "cstamigo@gmail.com" }]
+keywords = ["screener", "stocks", "crypto", "alerts", "telegram", "mcp", "yaml-rules", "technical-analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Environment :: Console",
+]
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = [
     "mcp>=1.2.0",
     "pydantic>=2.6",
@@ -16,11 +31,16 @@ dependencies = [
     "requests>=2.31",
 ]
 
+[project.urls]
+Homepage = "https://github.com/cstamigo-droid/signal-scanner"
+Repository = "https://github.com/cstamigo-droid/signal-scanner"
+"Bug Tracker" = "https://github.com/cstamigo-droid/signal-scanner/issues"
+
 [project.scripts]
 signal-scanner = "signal_scanner.__main__:main"
 
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
